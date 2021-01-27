@@ -1,11 +1,11 @@
 # NY_Covid_ETL
-Extracting the data for each county in New York state from the API, and load them into individual tables in the database. Each county table should contain following columns : Test Date, New Positives, Cumulative Number of Positives, Total Number of Tests Performed, Cumulative Number of Tests Performed, Load date
-For Creating Cron job:
-Some useful commands:
-  crontab -e : for asetting up cron job 
-  crontab -l : listing cron jobs
-  sudo service cron start
-  service cron status
+Extracting the data for each county in New York state from the API, and load them into individual tables in the database. Each county table should contain following columns : Test Date, New Positives, Cumulative Number of Positives, Total Number of Tests Performed, Cumulative Number of Tests Performed, Load date\\
+For Creating Cron job:\
+Some useful commands:\
+  1. crontab -e : for asetting up cron job \
+  2. crontab -l : listing cron jobs\
+  3. sudo service cron start\
+  4. service cron status\
   
 <> Edit this file to introduce tasks to be run by cron.\
 <>\
