@@ -5,8 +5,8 @@ Some useful commands
   1. crontab -e : for asetting up cron job.
   2. crontab -l : listing cron jobs.
   3. sudo service cron start.
-  4. service cron status.
-  
+  4. service cron status.\
+***Below cron job will run the python file daily at 9 am***\  
 <> Edit this file to introduce tasks to be run by cron.\
 <>\
 <> Each task to run has to be defined through a single line\
@@ -29,5 +29,5 @@ Some useful commands
 <> For more information see the manual pages of crontab(5) and cron(8)\
 <>\
 <> m h  dom mon dow   command\
-
+***Below command will help us run the script everyday***\
  00 9 * * * /usr/bin/python3 /mnt/c/Users/pallavi/Desktop/take_home/take_home.py >> /mnt/c/Users/pallavi/Desktop/take_home/take_home_asses.log
